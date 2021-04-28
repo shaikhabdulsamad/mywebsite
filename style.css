@@ -1,0 +1,41 @@
+@font-face{font-family:roboto ; src: url(fonts/Roboto-Regular.ttf);}
+*{margin: 0; padding: 0; box-sizing: border-box; font-family:roboto ; }
+
+
+.main_div{width: 100%; height: 100vh;}
+
+.header{width: 100%; height: 100px; background-color: rgb(230, 228, 228); display: flex;
+     justify-content: center; align-items: center; padding: 0 100px;   overflow: hidden;
+     position: fixed; top: 0; width: 100%; border-bottom: 1px solid black;}
+
+.logo{flex: 1; height: 100px;}
+
+.logo img{width: 100%; height: 100px;}
+
+.navbar{flex: 5;  height: 120px;  display: flex; justify-content:flex-end; align-items:center; }
+.navbar ul{list-style: none; display: inline-flex;}
+.navbar ul li{margin-left: 20px; }
+.navbar ul li a{text-decoration: none; color: black;}
+.navbar ul li a:hover{color: #5DADE2; text-decoration: underline;}
+
+.slide{width: 100%; height: 150px; background-color: #21618C;
+    display: flex; justify-content: flex-start; align-items: center; padding: 0 100px;
+margin-top: 100px;}
+.slide h1{text-transform: uppercase; font-size: 40px; color:  #F7F9F9;}
+
+.contact{display: flex; background-color: #154360 ; width: 100%; }
+
+.number{flex: 1;color: white; margin:auto auto; font-size: 20px; text-align: center;}
+.number span{background-color: white; padding: 10px 10px; color: #154360; 
+border-radius: 5px;}
+.table{flex: 1; height: 500px; display: flex;  justify-content: center; align-items: center;
+ margin:50px auto;}
+.table form{background-color: white; padding: 40px 30px; border-radius: 5px;
+margin: 20px;}
+.table form h1{text-align: center; text-transform: uppercase;}
+.table input[type="email"],[type="text"]{outline: none; margin-top: 20px; width: 400px; height: 50px; border: none;
+border-bottom:1px solid rgb(184, 184, 184) ;}
+.table input[type="submit"]{padding: 10px 30px; margin-top: 20px; background-color:#154360 ;
+color: white; outline: none; border: none; cursor: pointer;}
+.table input:focus{border-color: #154360;}
+.table input[type="submit"]:active{background-color: rgb(197, 197, 197); color: #154360;}
